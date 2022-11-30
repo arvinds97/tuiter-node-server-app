@@ -24,7 +24,6 @@ const updateTuit = async (req, res) => {
         .updateTuit(tuitdIdToUpdate,
             updates);
     res.json(status);
-    res.sendStatus(200);
 }
 
 
